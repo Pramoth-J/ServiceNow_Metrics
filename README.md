@@ -163,11 +163,33 @@ WHERE t.sys_id IS NULL;<br>
 - The primary keys (sys_id) for both the tables contain no duplicate values
 - The distribution of tasks by priority shows that majority of tasks are priotorized as "Moderate"
 - The distribution of tasks by status shows that majority of tasks are "Closed"
-- The distribution of SLAs by target and breach status shows that 
+- The distribution of SLAs by target and breach status shows that majority of SLA's are beyond the SLA stating the organisation did not meet the agreed resolution and response timings.
 - The daily ticket creation trend shows , highlighting the daily patterns in ticket creation and potential peak periods.
 - The distribution of tasks by class name and percentage shows that 50% of tasks are categorized under "Incidents", Highlighting the most common types of tasks and their relative proportions.
 - The top 10 employees (performers) by tickets raised are identified
 - There are 484 SLA records that do not have corresponding task information which highlights potential data inconsistencies between the SLA and task tables.
 
 ## Power BI
+### Data Visualization & Report Building
+
+Table View :
+- Created a Date table and Duplicate Date table using DAX
+- Created columns like Month (Dynamically represents the current month) and Year
+- Calculated Columns to create criterias for the tickets raised like the ticket aging days and time taken to close hours
+
+Model View :
+| Table 1        | Table 2        | Relationship Type | Key Field |
+|---------------|---------------|------------------|-----------|
+| servicenow_task | servicenow_sla | One-to-One       | sys_id    |
+
+Report View :
+The following visuals have been used to represent data effectively in Power BI:
+- Card Visual – To Display key metrics such as count of tickets along with status details and SLA count with responses and resolutions
+- Gauge Chart – To measure progress against the target user performance to the performance achieved.
+- Slicers – To enable filtering of data by Month, sys_id, user_name interactively for better user experience.
+- Doughnut Chart – To show the percentage distribution of Priority Status
+- Table Visual – To summarize the user information with detailed insights of tickets raised and other SLA related details
+- Stacked Column Chart – To Compare tickets with different status categories.
+
+
 
