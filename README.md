@@ -191,5 +191,25 @@ The following visuals have been used to represent data effectively in Power BI:
 - Table Visual – To summarize the user information with detailed insights of tickets raised and other SLA related details
 - Stacked Column Chart – To Compare tickets with different status categories.
 
+1) Summary Page
+
+## End Results Achieved 
+
+1) Automated Data Pipeline
+- Implemented an end-to-end ETL workflow using SSIS toload ServiceNow data into SQL Server, reducing manual intervention, ensuring timely and efficient data processing.
+- Used SQL Merge queries to maintain data consistency, avoiding duplication and ensuring data accuracy.
+
+2) Comprehensive Data Analysis
+- Leveraged SQL queries and Power BI DAX measures to identify trends, patterns, and anomalies in ServiceNow data.
+
+3) Interactive Reporting & Real-Time Insights
+- Designed dynamic Power BI report with interactive visuals (Cards, Gauges, Slicers, Doughnut Charts, Tables, and Stacked Column Charts).
+- Enabled real-time data refresh by integrating SQL Server with Power BI via Import mode.
+- Provided user-level security (RLS) for role-based access control.
+
+4) Improved Decision-Making
+- Empowered ITSM (Service Management) stakeholders with data-driven insights to optimize their processes
+- Enhanced operational efficiency through identifying key parametes like the time taken to close a ticket and the aging of the open tickets
+- Helped the team to identify the top performers.
 
 
