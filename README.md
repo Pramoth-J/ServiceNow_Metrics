@@ -192,6 +192,36 @@ The following visuals have been used to represent data effectively in Power BI:
 - Stacked Column Chart – To Compare tickets with different status categories.
 
 1) Summary Page
+- Title of the report, Logo and the Last updated date which denotes the latest refresh date of the report
+- Buttons to help page navigate the user to SLA and Userwise detailed tabs
+- Slicers to filter the data by Sys_id, Month and
+- Card visuals that provides information on total tickets raised along with individual count of tickets by their class name
+- Card visuals to indicate the SLA responses and resolutions that is within or beyond the SLA
+- Doughnut chart is used to show the distribution of tickets by priority ( Moderate, High, Low, Critical)
+- Stacked Column chart to compare the tickets with its status categories ( Open, closed, ...)
+- Visual to indicate the aging of the open incidents and categorized into
+- Visual to indicate the business duration ( Time taken for a ticket to be closed ) and categorized as
+- Line chart to indicate the 12 Month Trend for tickets raised
+
+2) SLA Page
+- Slicers to filter the data by Sys_id, Month and
+- Back Button to help the user nagivate to previous page (Summary Page)
+- Card visuals to indicate the SLA responses and resolutions that is within or beyond the SLA, (%) of SLA within or beyond SLA is also calculated
+- Stacked Column chart to distribute the Responses and Resolution SLA's with its Priority Status ( Moderate, High, Low, Critical)
+- Line chart to indicate the 12 Month Trend for the % of Responses and Resolutions
+
+3) Userwise Page
+- Slicers to filter the data by Sys_id, Month and User name
+- Back Button to help the user nagivate to previous page (Summary Page)
+- Card visual that shows the unique users in the system
+- Gauge visual to indicate the user performance of users where target is 100% and the
+- Card visuals that indicate the different status of tickets like (Open, Closed, Resolved, ...) along with the Total Tickets and User Performance %
+- Table that summarizes all the users with the tickets opened and closed by them denoting their performance 
+
+
+  
+
+  
 
 ## End Results Achieved 
 
