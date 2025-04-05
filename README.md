@@ -192,6 +192,9 @@ The following visuals have been used to represent data effectively in Power BI:
 - Stacked Column Chart – To Compare tickets with different status categories.
 
 1) Summary Page
+
+![Image](https://github.com/user-attachments/assets/8bae3386-f2c3-41be-922a-1c74ad35d382)
+
 - Title of the report, Logo and the Last updated date which denotes the latest refresh date of the report
 - Buttons to help page navigate the user to SLA and Userwise detailed tabs
 - Slicers to filter the data by Sys_id, Month and
@@ -204,6 +207,8 @@ The following visuals have been used to represent data effectively in Power BI:
 - Line chart to indicate the 12 Month Trend for tickets raised
 
 2) SLA Page
+
+![Image](https://github.com/user-attachments/assets/db7dca44-6341-4e68-bd2f-8657fb2661c7)
 - Slicers to filter the data by Sys_id, Month and
 - Back Button to help the user nagivate to previous page (Summary Page)
 - Card visuals to indicate the SLA responses and resolutions that is within or beyond the SLA, (%) of SLA within or beyond SLA is also calculated
@@ -211,17 +216,14 @@ The following visuals have been used to represent data effectively in Power BI:
 - Line chart to indicate the 12 Month Trend for the % of Responses and Resolutions
 
 3) Userwise Page
+
+![Image](https://github.com/user-attachments/assets/4d1edd2d-bc5c-4722-9ebd-8659cb616e25)
 - Slicers to filter the data by Sys_id, Month and User name
 - Back Button to help the user nagivate to previous page (Summary Page)
 - Card visual that shows the unique users in the system
 - Gauge visual to indicate the user performance of users where target is 100% and the
 - Card visuals that indicate the different status of tickets like (Open, Closed, Resolved, ...) along with the Total Tickets and User Performance %
 - Table that summarizes all the users with the tickets opened and closed by them denoting their performance 
-
-
-  
-
-  
 
 ## End Results Achieved 
 
